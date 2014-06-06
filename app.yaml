@@ -1,0 +1,32 @@
+application: lindausonhazellwebsite
+version: 17
+runtime: python27
+api_version: 1
+threadsafe: true
+
+libraries:  
+- name: django
+  version: "1.5"
+
+env_variables:
+  DJANGO_SETTINGS_MODULE: 'lindauson.settings'
+
+builtins:
+- django_wsgi: on
+
+handlers:
+- url: /static/main
+  static_dir: main/static/main
+  expiration: '0'
+
+- url: /static/admin
+  static_dir: lindauson/static/admin
+  expiration: '0'
+
+- url: /static/admin/css
+  static_dir: apmservices_django/static/admin/css
+  expiration: '0'
+
+- url: /static/admin/js
+  static_dir: apmservices_django/static/admin/js
+  expiration: '0'
