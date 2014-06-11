@@ -558,6 +558,10 @@ clip:rect(0px, 70px, 70px, 35px);
      -o-transition:none;
         transition:none;
 }
+
+.no-svg .radialtimer {
+  display: none;
+}
 /* Slider
 ================================================== */
 
@@ -731,6 +735,7 @@ margin:42px 0 0 0;
 }
 .devices-container{
 height:186px;
+position: relative;
 padding-left:0;
 padding-right:0;
 }
@@ -836,8 +841,8 @@ top:0;
 .devices-container .imac{
 z-index:10;
 background:url('../img/macProRetina.png') no-repeat center center;
-   -moz-background-size:cover;
-        background-size:cover;
+  -moz-background-size:cover;
+       background-size:cover;
 }
 .devices-container .ipad{
 z-index:11;
@@ -850,6 +855,20 @@ z-index:12;
 background:url('../img/iphone.png') no-repeat center center;
    -moz-background-size:cover;
         background-size:cover;
+}
+
+/* ie8-styles */
+.no-bgsizecover .devices-container .imac{
+background:url('../img/ie-fallback-images/320/macProRetina.png') no-repeat center center;
+}
+.no-bgsizecover .devices-container .ipad{
+background:url('../img/ie-fallback-images/320/ipad.png') no-repeat center center;
+}
+.no-bgsizecover .devices-container .iphone{
+background:url('../img/ie-fallback-images/320/iphone.png') no-repeat center center;
+}
+.no-bgsizecover .app-container {
+  display: none;
 }
 
 /* SITE DESCRIPTION */
@@ -1011,6 +1030,17 @@ text-align:center;
 border-top:1px solid rgb(236, 233, 234);
 background:rgb(247,245,242);
 }
+.contact-form label {
+  display: none;
+  text-align: left;
+}
+.no-placeholder .contact-form label {
+  display: block;
+}
+.contact-form label.invisible {
+  color: rgb(247, 245, 242);
+  color: rgba(247, 245, 242, 0);
+}
 .contact-form button{
 border-top:1px solid #bc3228;
 background:#e24135;
@@ -1121,6 +1151,18 @@ line-height:24px;
 font-size:18px;
 line-height:30px;
 }
+
+/* ie8-styles */
+.no-bgsizecover .devices-container .imac{
+background:url('../img/ie-fallback-images/480/macProRetina.png') no-repeat center center;
+}
+.no-bgsizecover .devices-container .ipad{
+background:url('../img/ie-fallback-images/480/ipad.png') no-repeat center center;
+}
+.no-bgsizecover .devices-container .iphone{
+background:url('../img/ie-fallback-images/480/iphone.png') no-repeat center center;
+}
+
 }
 
 /* Small devices (Android XL, 768px and up) */
@@ -1132,6 +1174,18 @@ line-height:30px;
 height:372px;
 width:640px;
 }
+
+/* ie8-styles */
+.no-bgsizecover .devices-container .imac{
+background:url('../img/ie-fallback-images/640/macProRetina.png') no-repeat center center;
+}
+.no-bgsizecover .devices-container .ipad{
+background:url('../img/ie-fallback-images/640/ipad.png') no-repeat center center;
+}
+.no-bgsizecover .devices-container .iphone{
+background:url('../img/ie-fallback-images/640/iphone.png') no-repeat center center;
+}
+
 }
 
 
@@ -1196,6 +1250,18 @@ width:100%;
 .technology ul li{
 font-size:3em;
 }
+
+/* ie8-styles */
+.no-bgsizecover .devices-container .imac{
+background:url('../img/ie-fallback-images/750/macProRetina.png') no-repeat center center;
+}
+.no-bgsizecover .devices-container .ipad{
+background:url('../img/ie-fallback-images/750/ipad.png') no-repeat center center;
+}
+.no-bgsizecover .devices-container .iphone{
+background:url('../img/ie-fallback-images/750/iphone.png') no-repeat center center;
+}
+
 }
 
 
@@ -1234,6 +1300,18 @@ margin-top:28%;
 .devices-container .device{
 height:379px;
 }
+
+/* ie8-styles */
+.no-bgsizecover .devices-container .imac{
+background:url('../img/ie-fallback-images/647/macProRetina.png') no-repeat center center;
+}
+.no-bgsizecover .devices-container .ipad{
+background:url('../img/ie-fallback-images/647/ipad.png') no-repeat center center;
+}
+.no-bgsizecover .devices-container .iphone{
+background:url('../img/ie-fallback-images/647/iphone.png') no-repeat center center;
+}
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -1242,7 +1320,7 @@ height:379px;
 /* CODE */
 
 .devices-container {
-    height:490px;
+height:490px;
 }
 #slides{
 margin-top:6.8%;
@@ -1256,7 +1334,22 @@ margin-top:30.4%;
 .devices-container .device{
 height:490px;
 }
+
+/* ie8-styles */
+.no-bgsizecover .devices-container .imac{
+background:url('../img/macProRetina.png') no-repeat center center;
 }
+.no-bgsizecover .devices-container .ipad{
+background:url('../img/ipad.png') no-repeat center center;
+}
+.no-bgsizecover .devices-container .iphone{
+background:url('../img/iphone.png') no-repeat center center;
+}
+.no-bgsizecover .app-container {
+  display: block;
+}
+}
+
 
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 1300px),
@@ -1285,4 +1378,5 @@ background:url('../img/ipad@2x.png') no-repeat center center;
 background:url('../img/iphone@2x.png') no-repeat center center;
    -moz-background-size:cover;
         background-size:cover;
+}
 }
