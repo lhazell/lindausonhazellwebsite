@@ -1,0 +1,7 @@
+/* HERO */
+
+.no-bgsizecover .hero{
+background: none;
+    /* IMPORTANT: The file is relative to the index, not the CSS */
+        -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../static/main/img/ie-fallback-images/lindauson3.jpg', sizingMethod='scale')";
+}
