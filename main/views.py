@@ -24,23 +24,3 @@ def index(request):
     else:
         context = {}
         return render(request, 'main/index.html', context)
-
-#def contactview(request):
-#        subject = request.POST.get('topic', '')
-#        message = request.POST.get('message', '')
-#        from_email = request.POST.get('email', '')
-#
-#        if subject and message and from_email:
-#                try:
-#                    send_mail(subject, message, from_email, ['change@this.com'])
-#                except BadHeaderError:
-#                        return HttpResponse('Invalid header found.')
-#                return HttpResponseRedirect('/contact/thankyou/')
-#        else:
-#            return render_to_response('contacts.html', {'form': ContactForm()})
-#    
-#        return render_to_response('contacts.html', {'form': ContactForm()},
-#            RequestContext(request))
-#
-#def thankyou(request):
-#        return render_to_response('thankyou.html')
