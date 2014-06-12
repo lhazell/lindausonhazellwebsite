@@ -30,3 +30,7 @@ handlers:
 - url: /static/admin/js
   static_dir: apmservices_django/static/admin/js
   expiration: '0'
+
+- url: /favicon\.ico
+  static_files: main/static/main/ico/favicon.ico
+  upload: main/static/main/ico/favicon\.ico
