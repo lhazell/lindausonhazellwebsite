@@ -696,6 +696,7 @@ color:rgb(250, 138, 0);
 position:relative;
 background-color:white;
 z-index:2;
+background-color: #494949;
 background:url('../img/lindauson.jpg') no-repeat center center;
    -moz-background-size:cover;
         background-size:cover;

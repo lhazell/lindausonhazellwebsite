@@ -45,5 +45,7 @@ docs/_build/
 
 # Photoshop Documents and High resolution images
 RAW/
-raw/
+
+# Ignore Settings.py file
+settings.py[cod]
 
