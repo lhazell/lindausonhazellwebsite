@@ -63,8 +63,12 @@ font-size:14px;
 line-height:21px;
 }
 p{
-margin:0 0 15px 0;
-line-height:24px;
+/*margin:0 0 15px 0;
+line-height:24px;*/
+font-size:17px;
+font-weight:300;
+line-height:27px;
+color:#777;
 }
 p img{
 margin:0;
@@ -730,14 +734,22 @@ vertical-align:middle;
 /* CODE */
 
 .code{
-height:700px;
-margin:42px 0 0 0;
+min-height: 910px;
+height: auto !important;
+height:910px;
+margin:42px 0;
 }
+
+.code .about{
+margin-bottom:98px;
+}
+
 .devices-container{
 height:186px;
 position: relative;
 padding-left:0;
 padding-right:0;
+margin-bottom: 49px;
 }
 .devices-container .current{
 height:100%;
@@ -884,6 +896,11 @@ display:block;
 
 .code-body ul{
 padding-left:0;
+padding-bottom:49px;
+}
+
+.code-body ul li p{
+line-height: 27px;
 }
 
 /* BUTTONS */
@@ -1217,7 +1234,9 @@ top:700px;
 /* CODE */
 
   .code{
-height:840px;
+min-height: 980px;
+height: auto !important;
+height:980px;
 }
 .devices-container{
 height:436px;
@@ -1283,7 +1302,9 @@ top:490px;
 /* CODE */
 
   .code{
-height:490px;
+min-height: 700px;
+height: auto !important;
+height:700px;
 }
 .devices-container{
 height:379px;
