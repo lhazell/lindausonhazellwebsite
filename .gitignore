@@ -49,3 +49,5 @@ RAW/
 # Ignore Settings.py file
 settings.py[cod]
 
+# Ignore .DS_Store
+.DS_Store
