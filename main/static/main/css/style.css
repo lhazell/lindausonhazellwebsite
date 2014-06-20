@@ -1,6 +1,5 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
-
 body{
 margin-top:50px;
 background:#fff;
@@ -18,10 +17,8 @@ body, h1, h2, h3, h4, h5, h6,
 input[type="text"], input[type="password"], input[type="email"], textarea, select, button{
 font-family:"Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
 /* #Typography
 ================================================== */
-
 h1, h2, h3{
 font-family:'Montserrat', 'sans-serif';
 font-weight:700;
@@ -96,9 +93,7 @@ clear:both;
 margin:10px 0 30px;
 height:0;
 }
-
 /* ICONMOON */
-
 @font-face{
 font-family:'icomoon';
 src:url('../fonts/iconmoon-fonts/icomoon.eot');
@@ -259,10 +254,8 @@ content:"\e60d";
 .icon-phone-right:before{
 content:"\e60b";
 }
-
 /* #Lists
 ================================================== */
-
 ul, ol{
 margin:0;
 }
@@ -293,10 +286,8 @@ line-height:21px;
 li p{
 line-height:21px;
 }
-
 /* #Forms
 ================================================== */
-
 input[type="text"],
 input[type="password"],
 input[type="email"],
@@ -360,10 +351,8 @@ background-color:rgb(81,154,13);
 /* 519a0d */
 border-color:rgb(81,154,13);
 }
-
 /* HTML5-Placeholder.js (polyfill)
 ================================================== */
-
 span.placeholder{
 position:absolute;
 font-size:75%;
@@ -399,30 +388,23 @@ left:-999em;
 float:none;
 margin:0 auto;
 }
-
 /* Bootstrap Validator (http://bootstrapvalidator.com)
 ================================================== */
-
 .bv-form .help-block {
     margin-bottom:0;
 }
 .bv-form .tooltip-inner { 
     text-align: left; 
 }
-
 .has-success .form-control:focus, .has-success .form-control {
   border-color: rgb(89,168,15);
 }
-
 .has-error .form-control:focus, .has-error .form-control {
   border-color: red;
 }
-
 /* Animations
 ================================================== */
-
 /* PULSE */
-
 @keyframes pulse {
   0%  { transform:scale(0.9); }
   70% { 
@@ -434,7 +416,6 @@ margin:0 auto;
     box-shadow:0 0 0 0 rgba(90, 153, 212, 0);
   }
 }
-
 @-webkit-keyframes pulse {
   0% {
     -webkit-transform:scale(0.9);
@@ -453,7 +434,6 @@ margin:0 auto;
     box-shadow:0 0 0 0 rgba(90, 153, 212, 0);
   }
 }
-
 @-moz-keyframes pulse {
   0%  { 
     -moz-transform:scale(0.9);
@@ -472,7 +452,6 @@ margin:0 auto;
     box-shadow:0 0 0 0 rgba(90, 153, 212, 0);
   }
 }
-
 @-o-keyframes pulse {
   0%  { 
     -o-transform:scale(0.9);
@@ -489,10 +468,8 @@ margin:0 auto;
     box-shadow:0 0 0 50px rgba(90, 153, 212, 0);
   }
 }
-
 /* Radial Timer
 ================================================== */
-
 .radialtimer{
 -webkit-backface-visibility:hidden;
    -moz-backface-visibility:hidden;
@@ -562,13 +539,11 @@ clip:rect(0px, 70px, 70px, 35px);
      -o-transition:none;
         transition:none;
 }
-
 .no-svg .radialtimer {
   display: none;
 }
 /* Slider
 ================================================== */
-
 #slides,
 #slides2,
 #slides3,
@@ -625,7 +600,6 @@ color:#9e2020;
 }
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
-
 .navbar{
 position:fixed;
 z-index:70;
@@ -691,7 +665,6 @@ color:rgb(250, 138, 0);
 }
 /* HERO / COVER
 -------------------------------------------------- */
-
 .hero{
 position:relative;
 background-color:white;
@@ -731,20 +704,16 @@ vertical-align:middle;
 }
 /* CODE / PIXELS / CONTACT
 -------------------------------------------------- */
-
 /* CODE */
-
 .code{
 min-height: 910px;
 height: auto !important;
 height:910px;
 margin:42px 0;
 }
-
 .code .about{
 margin-bottom:98px;
 }
-
 .devices-container{
 height:186px;
 position: relative;
@@ -869,7 +838,6 @@ background:url('../img/iphone.png') no-repeat center center;
    -moz-background-size:cover;
         background-size:cover;
 }
-
 /* ie8-styles */
 .no-bgsizecover .devices-container .imac{
 background:url('../img/ie-fallback-images/320/macProRetina.png') no-repeat center center;
@@ -883,29 +851,22 @@ background:url('../img/ie-fallback-images/320/iphone.png') no-repeat center cent
 .no-bgsizecover .app-container {
   display: none;
 }
-
 /* SITE DESCRIPTION */
-
 .site-description{
 display:none;
 }
 .site-description.active{
 display:block;
 }
-
 /* CODE-BODY */
-
 .code-body ul{
 padding-left:0;
 padding-bottom:49px;
 }
-
 .code-body ul li p{
 line-height: 27px;
 }
-
 /* BUTTONS */
-
 .code .btn{
 height:auto;
 background-color:rgb(89,168,15);
@@ -953,7 +914,6 @@ color:#494949;
 cursor:pointer;
 }
 /* TECHNOLOGY */
-
 .technology{
 min-height:140px;
 background-color:#f7f5f2;
@@ -1011,18 +971,14 @@ background-color:black;
 }
 /* COMMUNICATOR
 -------------------------------------------------- */
-
 #pixels{
 margin:3em 0;
 }
-
 #pixels .logo {
   width: 100%;
 }
-
 /* FOOTER
 -------------------------------------------------- */
-
 .social{
 border-top:1px solid rgb(236, 233, 234);
 text-align:center;
@@ -1136,10 +1092,8 @@ color:red;
 .contact-form textarea{
 min-height:5em;
 }
-
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-
 /* Small devices (Android, 768px and up) */
 @media (min-width: 480px){
 .devices-container {
@@ -1169,7 +1123,6 @@ line-height:24px;
 font-size:18px;
 line-height:30px;
 }
-
 /* ie8-styles */
 .no-bgsizecover .devices-container .imac{
 background:url('../img/ie-fallback-images/480/macProRetina.png') no-repeat center center;
@@ -1180,9 +1133,7 @@ background:url('../img/ie-fallback-images/480/ipad.png') no-repeat center center
 .no-bgsizecover .devices-container .iphone{
 background:url('../img/ie-fallback-images/480/iphone.png') no-repeat center center;
 }
-
 }
-
 /* Small devices (Android XL, 768px and up) */
 @media (min-width: 640px){
 .devices-container {
@@ -1192,7 +1143,6 @@ background:url('../img/ie-fallback-images/480/iphone.png') no-repeat center cent
 height:372px;
 width:640px;
 }
-
 /* ie8-styles */
 .no-bgsizecover .devices-container .imac{
 background:url('../img/ie-fallback-images/640/macProRetina.png') no-repeat center center;
@@ -1203,37 +1153,26 @@ background:url('../img/ie-fallback-images/640/ipad.png') no-repeat center center
 .no-bgsizecover .devices-container .iphone{
 background:url('../img/ie-fallback-images/640/iphone.png') no-repeat center center;
 }
-
 }
-
-
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px){
-
 /* HERO */
-
 .hero {
     height:700px;
 }
 .hero .row{
 margin:0 -15px;
 }
-
 /* BODY */
-
   body{
 margin-top:0;
 }
-
 /* NAVBAR */
-
 .navbar{
 position:absolute;
 top:700px;
 }
-
 /* CODE */
-
   .code{
 min-height: 980px;
 height: auto !important;
@@ -1270,7 +1209,6 @@ width:100%;
 .technology ul li{
 font-size:3em;
 }
-
 /* ie8-styles */
 .no-bgsizecover .devices-container .imac{
 background:url('../img/ie-fallback-images/750/macProRetina.png') no-repeat center center;
@@ -1281,27 +1219,18 @@ background:url('../img/ie-fallback-images/750/ipad.png') no-repeat center center
 .no-bgsizecover .devices-container .iphone{
 background:url('../img/ie-fallback-images/750/iphone.png') no-repeat center center;
 }
-
 }
-
-
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px){
-
 /* HERO */
-
 .hero {
     height:490px;
 }
-
 /* NAVBAR */
-
   .navbar{
 top:490px;
 }
-
 /* CODE */
-
   .code{
 min-height: 700px;
 height: auto !important;
@@ -1322,7 +1251,6 @@ margin-top:28%;
 .devices-container .device{
 height:379px;
 }
-
 /* ie8-styles */
 .no-bgsizecover .devices-container .imac{
 background:url('../img/ie-fallback-images/647/macProRetina.png') no-repeat center center;
@@ -1333,14 +1261,10 @@ background:url('../img/ie-fallback-images/647/ipad.png') no-repeat center center
 .no-bgsizecover .devices-container .iphone{
 background:url('../img/ie-fallback-images/647/iphone.png') no-repeat center center;
 }
-
 }
-
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px){
-
 /* CODE */
-
 .devices-container {
 height:490px;
 }
@@ -1356,7 +1280,6 @@ margin-top:30.4%;
 .devices-container .device{
 height:490px;
 }
-
 /* ie8-styles */
 .no-bgsizecover .devices-container .imac{
 background:url('../img/macProRetina.png') no-repeat center center;
@@ -1371,8 +1294,6 @@ background:url('../img/iphone.png') no-repeat center center;
   display: block;
 }
 }
-
-
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 1300px),
 only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 1300px),
