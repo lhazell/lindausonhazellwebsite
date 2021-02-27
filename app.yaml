@@ -1,12 +1,14 @@
-application: lindausonhazellwebsite
-version: 25
+# application: lindausonhazellwebsite
+# version: 25
 runtime: python27
 api_version: 1
 threadsafe: true
 
 libraries:  
 - name: django
-  version: "1.5"
+  version: "1.4"
+- name: MySQLdb
+  version: "latest"
 
 env_variables:
   DJANGO_SETTINGS_MODULE: 'lindauson.settings'

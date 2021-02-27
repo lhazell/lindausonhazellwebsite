@@ -5,7 +5,7 @@ BASE_DIR = os.path.abspath(os.path.dirname(__file__)) + os.sep
 DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.lindauson.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.lindauson.com', '.apurplepassionfruit.com', '.purplepassionfruit.com', 'lindausonhazellwebsite.appspot.com']
 
 ADMINS = (
     # ('Your Name', 'your_email@example.com'),
@@ -19,7 +19,7 @@ if (os.getenv('SERVER_SOFTWARE', '').startswith('Google App Engine') or
     # Running on production App Engine, so use a Google Cloud SQL database.
     DATABASES = {
         'default': {
-            'ENGINE': 'google.appengine.ext.django.backends.rdbms',
+            'ENGINE': 'django.db.backends.mysql',
             'INSTANCE': 'lindausonhazellwebsite:lindauson',
             'NAME': 'lindauson',
         }
